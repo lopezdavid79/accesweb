@@ -11,12 +11,15 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header> 
-      <a class="sr-only sr-only-focusable" href="#contenido" accesskey="i">Ir al contenido  principal</a>
-        <h1>Access web </h1>
-<p>por una web para todos </p>        
+  <header> 
+  <div class="container">
+    <div class="jumbotron">
+    
+      <a class="sr-only sr-only-focusable" href="#principal" accesskey="i">Ir al contenido  principal</a>
+        
+
 		<nav>
-<div class="container">
+
 <div class="btn-group">
       <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
       WCAG 2.1
@@ -27,16 +30,15 @@
 	<a class="dropdown-item" href="https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize" accesskey="3" target="_blank">wai WCAG 2.1-quickref)</a>
     
       </div>
-    
-    <div class="btn-group">
+       <div class="btn-group">
       <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
       Validadores de Contraste
       </button>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="https://colourcontrast.cc/ "accesskey="c" target="_blank">colour contrast</a>
-                <a class="dropdown-item" href="https://contrast-ratio.com/"accesskey=r" target="_blank">contrast-ratio</a>
-		<a class="dropdown-item" href="https://color.adobe.com/es/create/color-wheel"accesskey=a" target="_blank">Adobe color</a>
-		<a class="dropdown-item" href="https://app.contrast-finder.org/?lang=es"accesskey=f" target="_blank"> Contrast-finder</a>
+        <a class="dropdown-item" href="https://colourcontrast.cc/ " target="_blank">colour contrast</a>
+                <a class="dropdown-item" href="https://contrast-ratio.com/"target="_blank">contrast-ratio</a>
+		<a class="dropdown-item" href="https://color.adobe.com/es/create/color-wheel"target="_blank">Adobe color</a>
+		<a class="dropdown-item" href="https://app.contrast-finder.org/?lang=es"target="_blank"> Contrast-finder</a>
       </div>
 
   
@@ -47,23 +49,30 @@
       Validadores web
       </button>
       <div class="dropdown-menu">
-	  <a class="dropdown-item" href="https://wave.webaim.org/ "   accesskey="w" target="_blank">wave</a>
-    <a class="dropdown-item" href="http://accesar.onti.argentina.gob.ar/ "accesskey="a" target="_blank">accesar</a>
-    <a class="dropdown-item" href="https://www.tawdis.net/?lang=es# "accesskey="t" target="_blank">Taw</a>
+	  <a class="dropdown-item" href="https://wave.webaim.org/ "   target="_blank">wave</a>
+    <a class="dropdown-item" href="http://accesar.onti.argentina.gob.ar/ "target="_blank">accesar</a>
+    <a class="dropdown-item" href="https://www.tawdis.net/?lang=es# "target="_blank">Taw</a>
   
               </div>
     </div>
-  </div>
+  
 
 </nav>
-    </header>
-<main>
-  <div id="contenido"> 
-    <h2>Bienvenidos al cambio.." </h2>
-<p>pagina donde se recopilara información referida a la accesibilidad web 
-  <h2> Extensiones</h2>
-<div class="container"> 
-  <div class="row">
+    
+  </div>
+  </div>
+  </header>
+  
+<main >  
+  <div  id="principal" class="container"> 
+    <h1>Access web </h1>
+
+<p>
+El objetivo de esta web es brindar recursos y recomendaciones   para que los desarrolladores de productos digitales  puedan generar contenido  accesible para todas las personas.
+</p>
+  h2> Extensiones</h2>
+
+  <div clg  s="row">
     <div class="col">
 <H3>Extensión AXE debtools</H3>
     <p>verificador de Accesibilidad para Developers, Testers, y Designers en Chrome.
@@ -74,7 +83,7 @@
     <a href="https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd" target="blank" >descargar extensión axe debtools para chrome </a>  
 
     </div>
-    <div class="col"></div>
+    <div class="col">
     <H3>Extensión Wave Evaluation Tool</H3>
 <p>
   WAVE es una herramienta de evaluación de accesibilidad web desarrollada por WebAIM.org. Proporciona información visual sobre la accesibilidad de su contenido web mediante la inyección de iconos e indicadores en su página. Ninguna herramienta automatizada puede decirle si su página es accesible, pero WAVE facilita la evaluación humana y educa sobre problemas de accesibilidad. Todo el análisis se realiza completamente dentro del navegador Chrome, lo que permite una valoración segura de la intranet, local, protegida con contraseña y otras páginas web confidenciales.
@@ -82,12 +91,28 @@
   </p>
     <a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">descargar Extensión WAVE para Chrome en Google Web Store </a>
   </div>
+  <div class="col">
+    <h3> Extensión  Lighthouse</h3>
+    <p>      
+Lighthouse es una herramienta automatizada de código abierto para mejorar el rendimiento, la calidad y la corrección de sus aplicaciones web. 
+
+Al auditar una página, Lighthouse ejecuta un aluvión de pruebas contra la página y luego genera un informe sobre qué tan bien lo hizo la página. Desde aquí puede utilizar las pruebas de falla como indicadores de lo que puede hacer para mejorar su aplicación.  
+
+
+       </p>
+       <a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es">descargar Extensión Lighthouse para Chrome en Google Web Store </a>
+
+
   </div>
+  </div>
+
 </div> 
-  </div>
+
+  
 </main>    
 <footer>
 Sitio web creado por davidLopez. Copyright © 2022.
 </footer>
+  
 </body>
 </html>
